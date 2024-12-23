@@ -18,7 +18,7 @@ export class Allgames {
     );
     var data = await response.json();
     document.getElementById("loader").classList.add("d-none");
-    console.log(data);
+    
     let first = new Display(data);
     first.displayAllData();
   }
