@@ -18,7 +18,6 @@ export class Details {
       options
     );
     var data = await response.json();
-    console.log(data);
     document.getElementById("loader").classList.add("d-none");
 
     let display = new Display();
