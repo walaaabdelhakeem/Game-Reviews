@@ -41,7 +41,6 @@ export class Display {
     document.getElementById("row").innerHTML = home;
     document.querySelectorAll(".col").forEach((e) => {
       e.addEventListener("click", async function () {
-        console.log(e.id);
         var detaileofgame = new Details(e.id);
         await detaileofgame.getDetailsofgame();
       });
