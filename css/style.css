@@ -33,7 +33,7 @@ header img {
   color: white;
   text-transform: uppercase;
 }
-.nav-link.active {
+.nav-link.active ,.nav-link:hover{
   color: var(--btn-color);
 }
 .card-footer small {
