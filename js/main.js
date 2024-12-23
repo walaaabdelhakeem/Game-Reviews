@@ -5,7 +5,6 @@ navbarnav.addEventListener("click", async function (e) {
     var element = e.target;
     document.querySelector(".active").classList.remove("active");
     element.classList.add("active");
-    console.log(element.innerHTML);
     let catgame = new Allgames(element.innerHTML);
     await catgame.getALLData();
     // let displaydatacatogary= new Display(data);
